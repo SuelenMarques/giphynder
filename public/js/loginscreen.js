@@ -48,7 +48,6 @@ function redirectToPage(userId) {
   window.location = "home.html?userId=" + userId;
 }
 
-$(".btn-favorite").click(function() {
-  console.log("oi")
-  // window.location = "favorite.html?userId=" + userId;  
-})
+// $(".btn-favorite").click(function() {
+//   window.location = "favorite.html?userId=" + userId;  
+// })

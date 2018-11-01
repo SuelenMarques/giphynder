@@ -16,7 +16,6 @@ function getGiphys() {
     element.setAttribute("height", "300px")
     element.setAttribute("width", "300px")
     container.append(element);
-    console.log(container)
     const oi = document.querySelector(`[data-key="${index}"]`)
     console.log(oi)
     const mc = new Hammer(oi);
